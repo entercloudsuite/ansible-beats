@@ -13,5 +13,5 @@ galaxy_info:
   galaxy_tags:
     - molecule
 dependencies:
-  - {role: jobscore.beats, version: 0.1.1}
+  - {role: jobscore.beats, version: v0.1.1}
   # List your role dependencies here, one per line.
