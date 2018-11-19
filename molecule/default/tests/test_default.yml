@@ -1,0 +1,24 @@
+---
+package:
+  beats:
+    installed: true
+port:
+  tcp:80:
+    listening: true
+    ip:
+      - 0.0.0.0
+service:
+  beats:
+    enabled: true
+    running: true
+user:
+  beats:
+    exists: true
+    groups:
+      - beats
+group:
+  beats:
+    exists: true
+process:
+  beats:
+    running: true
